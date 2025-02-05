@@ -1,11 +1,9 @@
 package com.cliente.controllers;
 
 import com.cliente.dto.ClientDTO;
-import com.cliente.entities.Client;
 import com.cliente.services.ClientService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
